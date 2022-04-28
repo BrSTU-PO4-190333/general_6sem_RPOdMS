@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab6</string>
+    <string name="maldivi">мальдивы</string>
+    <string name="kanari">канары</string>
+    <string name="kurili">курилы</string>
+    <string name="filipines">филиппины</string>
+    <string name="welcomeKu">Приятного отдыха на Курилах</string>
+    <string name="welcomeKa">Приятного отдыха на Канарах</string>
+    <string name="welcomeMa">Приятного отдыха на Мальдивах</string>
+    <string name="welcomeFi">Приятного отдыха на Филиппинах</string>
+</resources>
