@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab2J</string>
+    <string name="app_name1">Угадай число!</string>
+    <string name="behind">Недалет!</string>
+    <string name="ahead">Перелет!</string>
+    <string name="hit">В точку!</string>
+    <string name="input_value">Ввести значение</string>
+    <string name="play_more">Сыграть еще</string>
+    <string name="try_to_guess">Попробуй угадать число (1 – 100)</string>
+    <string name="error">Неверный ввод!</string>
+</resources>
