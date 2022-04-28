@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" >Lab3J</string>
+    <string name="action_settings" >Настрой!</string>
+    <string name="hello_world" >Привет Мир!</string>
+    <string name="edit_message" >Введите текст здесь</string>
+    <string name="button_send" >Го!</string>
+</resources>
