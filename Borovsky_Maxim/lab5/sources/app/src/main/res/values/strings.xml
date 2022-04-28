@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab4JSON</string>
+    <string name="no_user_input">Введите текст !!!!</string>
+</resources>
