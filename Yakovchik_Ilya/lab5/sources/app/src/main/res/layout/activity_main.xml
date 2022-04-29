@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="333dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/hint_user_field"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColorHint"
+        app:layout_constraintBottom_toTopOf="@+id/main_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_field"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="43dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="sans-serif"
+        android:text="@string/main_btn"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/result_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_below="@+id/main_btn"
+        android:layout_marginBottom="243dp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="@color/textColorHint"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+</RelativeLayout>
