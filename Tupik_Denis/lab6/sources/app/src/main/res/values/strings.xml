@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab06</string>
+    <string name="work_with_swipe_screen">Work with swipe screen</string>
+    <string name="work_with_dialog_screen">Work with dialog screen</string>
+    <string name="title_activity_tabed">Tabed Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="change_color">Change color</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+</resources>
