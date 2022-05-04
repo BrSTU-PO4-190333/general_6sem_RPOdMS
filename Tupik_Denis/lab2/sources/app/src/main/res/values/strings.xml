@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">lab02</string>
+    <string name="game_name">Угадай число</string>
+    <string name="more">Ваше число больше, чем загаданное</string>
+    <string name="less">Ваше число меньше, чем загаданное</string>
+    <string name="right">Вы угадали заданное число! Поздравляю!\n Количество попыток: %1d</string>
+    <string name="enter_text">Введите значение от 1 до 100</string>
+    <string name="enter">Ввод</string>
+    <string name="again">Сыграть ещё</string>
+    <string name="border">Вы вышли за пределы диапазона!</string>
+    <string name="letters">Вы ввели не число!</string>
+    <string name="empty">Вы ввели пустую строку!</string>
+</resources>
