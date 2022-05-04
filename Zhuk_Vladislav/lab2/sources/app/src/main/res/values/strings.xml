@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab_2</string>
+    <string name="input_value">Начать</string>
+    <string name="try_to_guess">Введите число</string>
+    <string name="error">Ошибка</string>
+    <string name="ahead">Загаданное число меньше</string>
+    <string name="behind">Загаданное число больше</string>
+    <string name="hit">В точку</string>
+    <string name="play_more">Рестарт</string>
+</resources>
