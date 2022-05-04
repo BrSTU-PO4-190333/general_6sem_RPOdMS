@@ -1,0 +1,47 @@
+{
+  "response":
+  [
+    {
+      "id": 1,
+      "fname": "Lionel",
+      "lname": "Messi",
+      "country": "Argentina",
+      "city": "PSG"
+    },
+    {
+      "id": 2,
+      "fname": "Ansu",
+      "lname": "Fati",
+      "country": "Spain",
+      "city": "Barсelona"
+    },
+    {
+      "id": 3,
+      "fname": "Harry",
+      "lname": "Kane",
+      "country": "England",
+      "city": "Man City"
+    },
+    {
+      "id": 4,
+      "fname": "Robert",
+      "lname": "Lewandowski",
+      "country": "Poland",
+      "city": "Munhen"
+    },
+    {
+      "id": 5,
+      "fname": "Cristiano",
+      "lname": "Ronaldo",
+      "country": "Portugal",
+      "city": "Man Utd"
+    },
+    {
+      "id": 6,
+      "fname": "Erling",
+      "lname": "Halland",
+      "country": "Norway",
+      "city": "Barrusia"
+    }
+  ]
+}

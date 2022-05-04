@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InfoApp</string>
+    <string name="title">Диалоговое окно</string>
+    <string name="message">Выберите для подтверждения</string>
+    <string name="ok">Да</string>
+    <string name="no">Нет</string>
+</resources>
