@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">lab09</string>
+    <string name="try_to_play">Try to play</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="loop">Loop</string>
+    <string name="up">Вперёд</string>
+    <string name="down">Назад</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="media">Media</string>
+</resources>
