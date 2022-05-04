@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InfoApp</string>
+    <string name="title">Dialog window</string>
+    <string name="message">Do u want to see the notific?</string>
+    <string name="ok">Yep</string>
+    <string name="no">No</string>
+</resources>
