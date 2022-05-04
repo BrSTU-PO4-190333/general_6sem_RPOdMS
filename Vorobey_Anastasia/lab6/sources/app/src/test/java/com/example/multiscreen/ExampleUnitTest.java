@@ -1,4 +1,4 @@
-package com.example.media;
+package com.example.multiscreen;
 
 import org.junit.Test;
 

@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Media"
+rootProject.name = "MultiScreen"
 include ':app'
