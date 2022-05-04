@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab_2</string>
+    <string name="input_value">Start</string>
+    <string name="try_to_guess">Input number</string>
+    <string name="error">Error</string>
+    <string name="ahead">mystery number less</string>
+    <string name="behind">mystery number larger</string>
+    <string name="hit">excellent!!!</string>
+    <string name="play_more">Restart</string>
+</resources>
