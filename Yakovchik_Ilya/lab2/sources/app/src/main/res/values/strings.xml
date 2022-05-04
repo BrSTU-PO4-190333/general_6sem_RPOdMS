@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GuessNumber(Lb2)</string>
+    <string name="behind">Близко, но нужно число побольше</string>
+    <string name="ahead">Воу,чутка меньше число попробуй</string>
+    <string name="hit">ДА,победа!</string>
+    <string name="input_value">Ввести значение</string>
+    <string name="play_more">Сыграть ещё</string>
+    <string name="try_to_guess">Попробуй угадать число от 1 до 100</string>
+    <string name="error">Ой,что-то не правильное введено</string>
+</resources>
