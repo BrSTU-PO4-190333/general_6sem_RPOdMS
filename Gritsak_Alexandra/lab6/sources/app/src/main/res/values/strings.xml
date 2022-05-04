@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab6</string>
+    <string name="choose_dish">Выбрать блюдо</string>
+    <string name="drinks">Напитки</string>
+    <string name="salads">Салаты</string>
+    <string name="desserts">Десерт</string>
+    <string name="message">Выберете конкретное блюдо</string>
+    <string name="title_activity_page_view_model">DishPhotos</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
