@@ -1,0 +1,33 @@
+{
+  "response":
+  [
+    {
+      "id": 1,
+      "fname": "Dima",
+      "lname": "Gribovskij",
+      "country": "Belarus",
+      "city": "Brest"
+    },
+    {
+      "id": 2,
+      "fname": "Vlad",
+      "lname": "Zhuk",
+      "country": "Spain",
+      "city": "Barselona"
+    },
+    {
+      "id": 3,
+      "fname": "Alex",
+      "lname": "Lud",
+      "country": "England",
+      "city": "Manchester"
+    },
+    {
+      "id": 4,
+      "fname": "Sergey",
+      "lname": "Eliseev",
+      "country": "Germany",
+      "city": "Munhen"
+    }
+  ]
+}
