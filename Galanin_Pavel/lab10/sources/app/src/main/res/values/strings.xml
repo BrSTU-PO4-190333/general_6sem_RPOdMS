@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">gpi_rpodms6_lab10__geolocation</string>
+    <string name="textView_status">Статус GPS</string>
+    <string name="textView_longitude">Ширина</string>
+    <string name="textView_latitude">Долгота</string>
+    <string name="textView_time">Время определения</string>
+    <string name="GPS_on">GPS включён</string>
+    <string name="GPS_off">GPS выключен</string>
+</resources>
