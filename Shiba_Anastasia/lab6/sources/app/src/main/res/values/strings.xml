@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MultiScreen</string>
+    <string name="message">Вы уверены, что хотите вернуться?</string>
+    <string name="ok">OK</string>
+    <string name="read">Приятного прочтения!</string>
+</resources>
