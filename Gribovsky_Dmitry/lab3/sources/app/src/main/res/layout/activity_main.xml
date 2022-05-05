@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        tools:layout_editor_absoluteX="0dp"
+
+        tools:layout_editor_absoluteY="76dp">
+
+        <LinearLayout
+
+            android:id="@+id/linear1"
+
+            android:layout_width="318dp"
+
+            android:layout_height="114dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginStart="45dp"
+
+            android:layout_marginEnd="48dp"
+
+            android:orientation="horizontal">
+
+            <EditText
+
+                android:id="@+id/edit_message"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:ems="10"
+
+                android:hint="@string/edit_message"
+
+                android:textColorHint="@color/black">
+
+                <requestFocus />
+
+            </EditText>
+
+            <Button
+
+                android:id="@+id/button"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:hint="@string/button_send"
+
+                android:textColorHint="#ffffff" />
+
+        </LinearLayout>
+
+        <FrameLayout
+
+            android:id="@+id/imgview"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:layout_above="@+id/relative2"
+
+            android:layout_below="@id/linear1">
+
+            <ImageView
+
+                android:id="@+id/imageView"
+
+                android:layout_width="411dp"
+
+                android:layout_height="478dp"
+
+                android:layout_gravity="center"
+
+                android:background="@drawable/img">
+            </ImageView>
+
+        </FrameLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/relative2"
+
+            android:layout_width="370dp"
+
+            android:layout_height="125dp"
+
+            android:layout_alignLeft="@+id/imgview"
+
+            android:layout_alignRight="@+id/imgview"
+
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginLeft="18dp"
+
+            android:layout_marginRight="18dp"
+
+            android:layout_marginBottom="11dp">
+
+            <ImageButton
+
+                android:id="@+id/imageButton2"
+
+                android:layout_width="116dp"
+
+                android:layout_height="99dp"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_alignParentRight="true"
+
+                android:background="@drawable/dislike" />
+
+            <ImageButton
+
+                android:id="@+id/imageButton"
+
+                android:layout_width="116dp"
+
+                android:layout_height="99dp"
+
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentTop="true"
+
+                android:background="@drawable/like" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
