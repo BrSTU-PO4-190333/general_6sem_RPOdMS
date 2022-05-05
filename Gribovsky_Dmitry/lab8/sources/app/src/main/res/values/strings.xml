@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lab8</string>
+    <string name="s_c_p_v_o">Напишите одну из следующих букв (s, c, p, v, o)</string>
+    <string name="y_u_w_g_b">Напишите одну из следующих букв (y, u, w, g, b)</string>
+</resources>
