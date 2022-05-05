@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:layout_gravity="center"
+
+    android:background="@drawable/ic_launcher_foreground"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Выберите язык, про который хотели бы почитать."
+
+        android:textSize="35dp"
+
+        android:textAlignment="center"
+
+        android:paddingTop="60dp"
+
+        android:paddingBottom="60dp"
+
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <LinearLayout
+
+        android:layout_width="365dp"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+
+        android:orientation="horizontal"
+
+        android:paddingBottom="30dp">
+
+        <ImageButton
+
+            android:id="@+id/btnActTwo"
+
+            android:layout_width="130dp"
+
+            android:layout_height="130dp"
+
+            android:layout_marginHorizontal="50dp"
+
+            android:background="@drawable/asm">
+
+        </ImageButton>
+
+        <ImageButton
+
+            android:id="@+id/btnActThree"
+
+            android:layout_width="130dp"
+
+            android:layout_height="130dp"
+
+            android:background="@drawable/index">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="365dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+
+        android:adjustViewBounds="true"
+
+        android:gravity="center">
+
+        <ImageButton
+
+            android:id="@+id/btnActFour"
+
+            android:layout_width="130dp"
+
+            android:layout_height="130dp"
+
+            android:layout_marginHorizontal="50dp"
+
+            android:background="@drawable/java">
+
+        </ImageButton>
+
+        <ImageButton
+
+            android:id="@+id/btnActFive"
+
+            android:layout_width="130dp"
+
+            android:layout_height="130dp"
+
+            android:background="@drawable/swift">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+</LinearLayout>
