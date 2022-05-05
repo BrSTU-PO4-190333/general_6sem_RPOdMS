@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">gpi_rpodms_lab8</string>
+    <string name="app_text">Нарисуйте жест:\n 1, или 2, или S</string>
+</resources>
