@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"    >Угадай число!</string>
+    <string name="ahead"       >Перелёт!</string>
+    <string name="behind"      >Недолёт!</string>
+    <string name="hit"         >В точку!</string>
+    <string name="play_more"   >Попробовать ещё</string>
+    <string name="input_value" >Ввести число</string>
+    <string name="try_to_guess">Попробуйте угадать число (1 &#8211; 100)</string>
+    <string name="error_over_100">Неверный ввод! Число больше 100!</string>
+    <string name="error_less_1"  >Неверный ввод! Число меньше 1!</string>
+    <string name="error_noinput" >Вы не ввели число!</string>
+</resources>
