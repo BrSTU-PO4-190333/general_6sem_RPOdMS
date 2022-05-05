@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView_status_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_status"
+            android:textAlignment="center"
+            android:layout_marginTop="16sp"
+            android:textSize="32sp"/>
+        <TextView
+            android:id="@+id/textView_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_longitude_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_longitude"
+            android:textAlignment="center"
+            android:layout_marginTop="16sp"
+            android:textSize="32sp"/>
+        <TextView
+            android:id="@+id/textView_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_latitude_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_latitude"
+            android:textAlignment="center"
+            android:layout_marginTop="16sp"
+            android:textSize="32sp"/>
+        <TextView
+            android:id="@+id/textView_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_time_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_time"
+            android:textAlignment="center"
+            android:layout_marginTop="16sp"
+            android:textSize="32sp"/>
+        <TextView
+            android:id="@+id/textView_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
