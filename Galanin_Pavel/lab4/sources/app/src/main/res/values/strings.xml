@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">gpi_rpodms6_lab4__memory_game</string>
+    <string name="img_description">some image</string>
+    <string name="TextView_game_counter_label">Количество ходов:</string>
+    <string name="Button_new_game">Новая игра</string>
+</resources>
