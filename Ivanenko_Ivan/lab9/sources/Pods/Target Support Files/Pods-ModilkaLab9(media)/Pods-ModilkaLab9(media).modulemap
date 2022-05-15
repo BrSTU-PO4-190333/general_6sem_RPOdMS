@@ -1,6 +1,0 @@
-framework module Pods_ModilkaLab9_media_ {
-  umbrella header "Pods-ModilkaLab9(media)-umbrella.h"
-
-  export *
-  module * { export * }
-}

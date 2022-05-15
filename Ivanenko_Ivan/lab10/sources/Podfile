@@ -1,9 +1,0 @@
-platform :ios, '12.0'
-
-use_frameworks!
-
-target 'testLocation' do
-  pod 'SwiftLint'
-  pod 'SwiftLocation'
-  pod 'SnapKit'
-end
