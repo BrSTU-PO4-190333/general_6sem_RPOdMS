@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460466CE2805EFC100327564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466CD2805EFC100327564 /* AppDelegate.swift */; };
+		460466D02805EFC100327564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466CF2805EFC100327564 /* SceneDelegate.swift */; };
+		460466D52805EFC100327564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460466D32805EFC100327564 /* Main.storyboard */; };
+		460466D72805EFC200327564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460466D62805EFC200327564 /* Assets.xcassets */; };
+		460466DA2805EFC200327564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460466D82805EFC200327564 /* LaunchScreen.storyboard */; };
+		460467072805F05900327564 /* ImageSize + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466E22805F05800327564 /* ImageSize + extension.swift */; };
+		460467082805F05900327564 /* distance + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466E32805F05800327564 /* distance + extension.swift */; };
+		460467092805F05900327564 /* AppleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466E62805F05900327564 /* AppleMapViewController.swift */; };
+		4604670A2805F05900327564 /* AppleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466E82805F05900327564 /* AppleMap.swift */; };
+		4604670B2805F05900327564 /* VenueAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466E92805F05900327564 /* VenueAnnotationView.swift */; };
+		4604670C2805F05900327564 /* SetupRoutesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466EA2805F05900327564 /* SetupRoutesButton.swift */; };
+		4604670D2805F05900327564 /* StudentInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466EB2805F05900327564 /* StudentInfoLabel.swift */; };
+		4604670E2805F05900327564 /* MapCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466EC2805F05900327564 /* MapCircle.swift */; };
+		4604670F2805F05900327564 /* StudentAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466ED2805F05900327564 /* StudentAnnotation.swift */; };
+		460467102805F05900327564 /* StudentAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466EE2805F05900327564 /* StudentAnnotationView.swift */; };
+		460467112805F05900327564 /* ShowStudentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466EF2805F05900327564 /* ShowStudentButton.swift */; };
+		460467122805F05900327564 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466F02805F05900327564 /* Direction.swift */; };
+		460467132805F05900327564 /* AppleMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466F12805F05900327564 /* AppleMapViewModel.swift */; };
+		460467142805F05900327564 /* AppleMapIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466F22805F05900327564 /* AppleMapIO.swift */; };
+		460467152805F05900327564 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466F32805F05900327564 /* Assembly.swift */; };
+		460467162805F05900327564 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466F62805F05900327564 /* StudentCell.swift */; };
+		460467172805F05900327564 /* StudentInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466F72805F05900327564 /* StudentInfoViewModel.swift */; };
+		460467182805F05900327564 /* StudentInfoIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466F82805F05900327564 /* StudentInfoIO.swift */; };
+		460467192805F05900327564 /* StudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466F92805F05900327564 /* StudentInfoViewController.swift */; };
+		4604671A2805F05900327564 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466FA2805F05900327564 /* MainCoordinator.swift */; };
+		4604671B2805F05900327564 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466FC2805F05900327564 /* MainViewController.swift */; };
+		4604671C2805F05900327564 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466FD2805F05900327564 /* MainViewModel.swift */; };
+		4604671D2805F05900327564 /* MainIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460466FE2805F05900327564 /* MainIO.swift */; };
+		4604671E2805F05900327564 /* Gender + enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460467002805F05900327564 /* Gender + enum.swift */; };
+		4604671F2805F05900327564 /* StudentCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460467012805F05900327564 /* StudentCounter.swift */; };
+		460467202805F05900327564 /* Ranges + enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460467022805F05900327564 /* Ranges + enum.swift */; };
+		460467212805F05900327564 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460467032805F05900327564 /* Student.swift */; };
+		460467222805F05900327564 /* StudentsDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460467052805F05900327564 /* StudentsDataBase.swift */; };
+		460467232805F05900327564 /* StudentUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460467062805F05900327564 /* StudentUsecase.swift */; };
+		65CA61B5E45A24D74641904F /* Pods_MobilkaLab10_geolocation_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33BB93AB3DFF7715BAB932E /* Pods_MobilkaLab10_geolocation_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		287F6729EDD58547E394DAC6 /* Pods-MobilkaLab10(geolocation).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilkaLab10(geolocation).debug.xcconfig"; path = "Target Support Files/Pods-MobilkaLab10(geolocation)/Pods-MobilkaLab10(geolocation).debug.xcconfig"; sourceTree = "<group>"; };
+		460466CA2805EFC100327564 /* MobilkaLab10(geolocation).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobilkaLab10(geolocation).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		460466CD2805EFC100327564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		460466CF2805EFC100327564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		460466D42805EFC100327564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		460466D62805EFC200327564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		460466D92805EFC200327564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		460466DB2805EFC200327564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460466E22805F05800327564 /* ImageSize + extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageSize + extension.swift"; sourceTree = "<group>"; };
+		460466E32805F05800327564 /* distance + extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "distance + extension.swift"; sourceTree = "<group>"; };
+		460466E62805F05900327564 /* AppleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMapViewController.swift; sourceTree = "<group>"; };
+		460466E82805F05900327564 /* AppleMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMap.swift; sourceTree = "<group>"; };
+		460466E92805F05900327564 /* VenueAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAnnotationView.swift; sourceTree = "<group>"; };
+		460466EA2805F05900327564 /* SetupRoutesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupRoutesButton.swift; sourceTree = "<group>"; };
+		460466EB2805F05900327564 /* StudentInfoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfoLabel.swift; sourceTree = "<group>"; };
+		460466EC2805F05900327564 /* MapCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCircle.swift; sourceTree = "<group>"; };
+		460466ED2805F05900327564 /* StudentAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentAnnotation.swift; sourceTree = "<group>"; };
+		460466EE2805F05900327564 /* StudentAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentAnnotationView.swift; sourceTree = "<group>"; };
+		460466EF2805F05900327564 /* ShowStudentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStudentButton.swift; sourceTree = "<group>"; };
+		460466F02805F05900327564 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		460466F12805F05900327564 /* AppleMapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMapViewModel.swift; sourceTree = "<group>"; };
+		460466F22805F05900327564 /* AppleMapIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMapIO.swift; sourceTree = "<group>"; };
+		460466F32805F05900327564 /* Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		460466F62805F05900327564 /* StudentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		460466F72805F05900327564 /* StudentInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfoViewModel.swift; sourceTree = "<group>"; };
+		460466F82805F05900327564 /* StudentInfoIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfoIO.swift; sourceTree = "<group>"; };
+		460466F92805F05900327564 /* StudentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfoViewController.swift; sourceTree = "<group>"; };
+		460466FA2805F05900327564 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		460466FC2805F05900327564 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		460466FD2805F05900327564 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		460466FE2805F05900327564 /* MainIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainIO.swift; sourceTree = "<group>"; };
+		460467002805F05900327564 /* Gender + enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gender + enum.swift"; sourceTree = "<group>"; };
+		460467012805F05900327564 /* StudentCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCounter.swift; sourceTree = "<group>"; };
+		460467022805F05900327564 /* Ranges + enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ranges + enum.swift"; sourceTree = "<group>"; };
+		460467032805F05900327564 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		460467052805F05900327564 /* StudentsDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsDataBase.swift; sourceTree = "<group>"; };
+		460467062805F05900327564 /* StudentUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentUsecase.swift; sourceTree = "<group>"; };
+		A33BB93AB3DFF7715BAB932E /* Pods_MobilkaLab10_geolocation_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilkaLab10_geolocation_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38C18373D219CB04AA4A782 /* Pods-MobilkaLab10(geolocation).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilkaLab10(geolocation).release.xcconfig"; path = "Target Support Files/Pods-MobilkaLab10(geolocation)/Pods-MobilkaLab10(geolocation).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460466C72805EFC100327564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CA61B5E45A24D74641904F /* Pods_MobilkaLab10_geolocation_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2FCBDB4A40B4E1F942F1B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A33BB93AB3DFF7715BAB932E /* Pods_MobilkaLab10_geolocation_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35BE8EFA26CF043D8895E5D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				287F6729EDD58547E394DAC6 /* Pods-MobilkaLab10(geolocation).debug.xcconfig */,
+				B38C18373D219CB04AA4A782 /* Pods-MobilkaLab10(geolocation).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		460466C12805EFC100327564 = {
+			isa = PBXGroup;
+			children = (
+				460466CC2805EFC100327564 /* MobilkaLab10(geolocation) */,
+				460466CB2805EFC100327564 /* Products */,
+				35BE8EFA26CF043D8895E5D8 /* Pods */,
+				0D2FCBDB4A40B4E1F942F1B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		460466CB2805EFC100327564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460466CA2805EFC100327564 /* MobilkaLab10(geolocation).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460466CC2805EFC100327564 /* MobilkaLab10(geolocation) */ = {
+			isa = PBXGroup;
+			children = (
+				460466CD2805EFC100327564 /* AppDelegate.swift */,
+				460466CF2805EFC100327564 /* SceneDelegate.swift */,
+				460466E12805F05800327564 /* Extensions */,
+				460466FF2805F05900327564 /* Models */,
+				460466E42805F05900327564 /* Modules */,
+				460467042805F05900327564 /* Usecases */,
+				460466D32805EFC100327564 /* Main.storyboard */,
+				460466D62805EFC200327564 /* Assets.xcassets */,
+				460466D82805EFC200327564 /* LaunchScreen.storyboard */,
+				460466DB2805EFC200327564 /* Info.plist */,
+			);
+			path = "MobilkaLab10(geolocation)";
+			sourceTree = "<group>";
+		};
+		460466E12805F05800327564 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				460466E22805F05800327564 /* ImageSize + extension.swift */,
+				460466E32805F05800327564 /* distance + extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		460466E42805F05900327564 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				460466E52805F05900327564 /* AppleMap */,
+				460466F32805F05900327564 /* Assembly.swift */,
+				460466F42805F05900327564 /* StudentInfo */,
+				460466FA2805F05900327564 /* MainCoordinator.swift */,
+				460466FB2805F05900327564 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		460466E52805F05900327564 /* AppleMap */ = {
+			isa = PBXGroup;
+			children = (
+				460466E62805F05900327564 /* AppleMapViewController.swift */,
+				460466E72805F05900327564 /* UI */,
+				460466F12805F05900327564 /* AppleMapViewModel.swift */,
+				460466F22805F05900327564 /* AppleMapIO.swift */,
+			);
+			path = AppleMap;
+			sourceTree = "<group>";
+		};
+		460466E72805F05900327564 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				460466E82805F05900327564 /* AppleMap.swift */,
+				460466E92805F05900327564 /* VenueAnnotationView.swift */,
+				460466EA2805F05900327564 /* SetupRoutesButton.swift */,
+				460466EB2805F05900327564 /* StudentInfoLabel.swift */,
+				460466EC2805F05900327564 /* MapCircle.swift */,
+				460466ED2805F05900327564 /* StudentAnnotation.swift */,
+				460466EE2805F05900327564 /* StudentAnnotationView.swift */,
+				460466EF2805F05900327564 /* ShowStudentButton.swift */,
+				460466F02805F05900327564 /* Direction.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		460466F42805F05900327564 /* StudentInfo */ = {
+			isa = PBXGroup;
+			children = (
+				460466F52805F05900327564 /* Cells */,
+				460466F72805F05900327564 /* StudentInfoViewModel.swift */,
+				460466F82805F05900327564 /* StudentInfoIO.swift */,
+				460466F92805F05900327564 /* StudentInfoViewController.swift */,
+			);
+			path = StudentInfo;
+			sourceTree = "<group>";
+		};
+		460466F52805F05900327564 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				460466F62805F05900327564 /* StudentCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		460466FB2805F05900327564 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				460466FC2805F05900327564 /* MainViewController.swift */,
+				460466FD2805F05900327564 /* MainViewModel.swift */,
+				460466FE2805F05900327564 /* MainIO.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		460466FF2805F05900327564 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				460467002805F05900327564 /* Gender + enum.swift */,
+				460467012805F05900327564 /* StudentCounter.swift */,
+				460467022805F05900327564 /* Ranges + enum.swift */,
+				460467032805F05900327564 /* Student.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		460467042805F05900327564 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				460467052805F05900327564 /* StudentsDataBase.swift */,
+				460467062805F05900327564 /* StudentUsecase.swift */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460466C92805EFC100327564 /* MobilkaLab10(geolocation) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460466DE2805EFC200327564 /* Build configuration list for PBXNativeTarget "MobilkaLab10(geolocation)" */;
+			buildPhases = (
+				47BBCFBF0EB18CF93780B773 /* [CP] Check Pods Manifest.lock */,
+				460466C62805EFC100327564 /* Sources */,
+				460466C72805EFC100327564 /* Frameworks */,
+				460466C82805EFC100327564 /* Resources */,
+				450F6428E3F759563F260DB4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobilkaLab10(geolocation)";
+			productName = "MobilkaLab10(geolocation)";
+			productReference = 460466CA2805EFC100327564 /* MobilkaLab10(geolocation).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460466C22805EFC100327564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					460466C92805EFC100327564 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 460466C52805EFC100327564 /* Build configuration list for PBXProject "MobilkaLab10(geolocation)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460466C12805EFC100327564;
+			productRefGroup = 460466CB2805EFC100327564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460466C92805EFC100327564 /* MobilkaLab10(geolocation) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460466C82805EFC100327564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460466DA2805EFC200327564 /* LaunchScreen.storyboard in Resources */,
+				460466D72805EFC200327564 /* Assets.xcassets in Resources */,
+				460466D52805EFC100327564 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		450F6428E3F759563F260DB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilkaLab10(geolocation)/Pods-MobilkaLab10(geolocation)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilkaLab10(geolocation)/Pods-MobilkaLab10(geolocation)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobilkaLab10(geolocation)/Pods-MobilkaLab10(geolocation)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47BBCFBF0EB18CF93780B773 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobilkaLab10(geolocation)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460466C62805EFC100327564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460467082805F05900327564 /* distance + extension.swift in Sources */,
+				4604671B2805F05900327564 /* MainViewController.swift in Sources */,
+				4604670F2805F05900327564 /* StudentAnnotation.swift in Sources */,
+				4604671F2805F05900327564 /* StudentCounter.swift in Sources */,
+				4604670C2805F05900327564 /* SetupRoutesButton.swift in Sources */,
+				460467162805F05900327564 /* StudentCell.swift in Sources */,
+				460467202805F05900327564 /* Ranges + enum.swift in Sources */,
+				460467142805F05900327564 /* AppleMapIO.swift in Sources */,
+				4604671A2805F05900327564 /* MainCoordinator.swift in Sources */,
+				460467182805F05900327564 /* StudentInfoIO.swift in Sources */,
+				460467132805F05900327564 /* AppleMapViewModel.swift in Sources */,
+				460467072805F05900327564 /* ImageSize + extension.swift in Sources */,
+				460466CE2805EFC100327564 /* AppDelegate.swift in Sources */,
+				4604670E2805F05900327564 /* MapCircle.swift in Sources */,
+				4604670A2805F05900327564 /* AppleMap.swift in Sources */,
+				460467122805F05900327564 /* Direction.swift in Sources */,
+				460467102805F05900327564 /* StudentAnnotationView.swift in Sources */,
+				460467092805F05900327564 /* AppleMapViewController.swift in Sources */,
+				460467232805F05900327564 /* StudentUsecase.swift in Sources */,
+				4604670B2805F05900327564 /* VenueAnnotationView.swift in Sources */,
+				4604671E2805F05900327564 /* Gender + enum.swift in Sources */,
+				460467152805F05900327564 /* Assembly.swift in Sources */,
+				460467112805F05900327564 /* ShowStudentButton.swift in Sources */,
+				4604671D2805F05900327564 /* MainIO.swift in Sources */,
+				460466D02805EFC100327564 /* SceneDelegate.swift in Sources */,
+				460467172805F05900327564 /* StudentInfoViewModel.swift in Sources */,
+				460467192805F05900327564 /* StudentInfoViewController.swift in Sources */,
+				460467222805F05900327564 /* StudentsDataBase.swift in Sources */,
+				460467212805F05900327564 /* Student.swift in Sources */,
+				4604670D2805F05900327564 /* StudentInfoLabel.swift in Sources */,
+				4604671C2805F05900327564 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		460466D32805EFC100327564 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460466D42805EFC100327564 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		460466D82805EFC200327564 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460466D92805EFC200327564 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		460466DC2805EFC200327564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		460466DD2805EFC200327564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460466DF2805EFC200327564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287F6729EDD58547E394DAC6 /* Pods-MobilkaLab10(geolocation).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobilkaLab10(geolocation)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KK.MobilkaLab10-geolocation-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460466E02805EFC200327564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38C18373D219CB04AA4A782 /* Pods-MobilkaLab10(geolocation).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobilkaLab10(geolocation)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KK.MobilkaLab10-geolocation-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460466C52805EFC100327564 /* Build configuration list for PBXProject "MobilkaLab10(geolocation)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460466DC2805EFC200327564 /* Debug */,
+				460466DD2805EFC200327564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460466DE2805EFC200327564 /* Build configuration list for PBXNativeTarget "MobilkaLab10(geolocation)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460466DF2805EFC200327564 /* Debug */,
+				460466E02805EFC200327564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 460466C22805EFC100327564 /* Project object */;
+}
