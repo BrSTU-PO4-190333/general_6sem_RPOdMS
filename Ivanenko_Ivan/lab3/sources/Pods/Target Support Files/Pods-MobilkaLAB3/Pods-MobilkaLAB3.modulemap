@@ -1,6 +1,0 @@
-framework module Pods_MobilkaLAB3 {
-  umbrella header "Pods-MobilkaLAB3-umbrella.h"
-
-  export *
-  module * { export * }
-}

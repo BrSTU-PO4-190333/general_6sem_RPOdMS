@@ -1,7 +1,0 @@
-platform :ios, '12.0'
-
-use_frameworks!
-
-target 'MobilkaLab7(simple gestures)' do
-  pod 'SnapKit'
-end

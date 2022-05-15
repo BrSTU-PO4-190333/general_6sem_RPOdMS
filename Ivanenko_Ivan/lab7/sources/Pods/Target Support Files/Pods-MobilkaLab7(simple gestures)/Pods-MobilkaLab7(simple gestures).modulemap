@@ -1,6 +1,0 @@
-framework module Pods_MobilkaLab7_simple_gestures_ {
-  umbrella header "Pods-MobilkaLab7(simple gestures)-umbrella.h"
-
-  export *
-  module * { export * }
-}

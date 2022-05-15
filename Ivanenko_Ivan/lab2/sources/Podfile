@@ -1,8 +1,0 @@
-platform :ios, '12.0'
-
-use_frameworks!
-
-target 'MobilkaLAB2' do
-  pod 'SwiftLint'
-  pod 'SnapKit' 
-end
